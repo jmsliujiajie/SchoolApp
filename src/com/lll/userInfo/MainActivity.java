@@ -15,7 +15,7 @@ import com.lll.utisl.WebService;
 import com.lll.utisl.WsPubSecur;
 
 public class MainActivity extends Activity implements OnClickListener {
-    //20160721 
+    //20160721-lxl
 	Button bDoLogin = null;
 	TextView tUserName = null;
 	TextView tPasswd = null;
