@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/textPasswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textUserName"
+        android:layout_below="@+id/textUserName"
+        android:hint="@+string/inputPasswd"
+        android:inputType="textPassword"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textUserName"
+        android:layout_alignBottom="@+id/textUserName"
+        android:layout_alignParentLeft="true"
+        android:text="@+string/userName" />
+
+    <EditText
+        android:id="@+id/textUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:hint="@+string/inputUserName"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textPasswd"
+        android:layout_alignBottom="@+id/textPasswd"
+        android:layout_alignParentLeft="true"
+        android:text="@+string/password" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textPasswd"
+        android:layout_below="@+id/textPasswd"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="70dp"
+        android:text="@+string/doLogin" />
+
+</RelativeLayout>
